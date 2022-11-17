@@ -7,10 +7,10 @@ class Button extends React.Component {
   }
  render (){
   return(
-    <div >
-      <button  type="button" class="btn btn-success"  style={{backgroundColor : this.props.color}}  onClick={this.props.onClicks}>{this.props.Editbtn}</button>
-      <button  type="button" class="btn btn-danger" style={{backgroundColor : this.props.colors}}  onClick={this.props.onClickss}>{this.props.deletebtn}</button>
-    </div>
+    
+      <button  type="button" class="btn btn-success"  style={{backgroundColor : this.props.color}} onClick={this.props.onClickss}>{this.props.text}</button>
+     
+    
   );
  };
 }

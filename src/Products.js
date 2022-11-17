@@ -14,7 +14,9 @@ function Products({products,rowclicks,rowclickss}) {
                 <tr>
                     <th scope="col">ID</th>
                     <th scope="col">Title</th>
-                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Stock</th>
+                    <th scope="col">Brand</th>
                     <th scope="col">Action</th>
                 </tr>
             </thead>
@@ -23,8 +25,8 @@ function Products({products,rowclicks,rowclickss}) {
                 <Product 
                 key={elements.id}
                 product= {elements}
-                onClicks={rowclicks}
-                onClickss={rowclickss}></Product>
+                onClick={rowclicks}
+                onClicks={rowclickss}></Product>
             ))}
             
             </tbody>
