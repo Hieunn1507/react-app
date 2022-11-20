@@ -2,10 +2,16 @@ import React from 'react'
 import Product from './Product'
 import 'bootstrap/dist/css/bootstrap.css';
 
-function Products({products,rowclicks,rowclickss}) {
+function Products({products,setProducts,editClick,delClick}) {
 
+const delPro = async function(id){
+    await fetch(`http://localhost:5050/products/${id}`,{
+    method:"DELETE",
+});
+    setProducts(products.filter((product)=> product.id !== id)); 
+};
 
-
+const EditPro= async(id) =>{};
   return (
     <div >   
         
@@ -25,8 +31,8 @@ function Products({products,rowclicks,rowclickss}) {
                 <Product 
                 key={elements.id}
                 product= {elements}
-                onClick={rowclicks}
-                onClicks={rowclickss}></Product>
+                onEdit={editClick}
+                onDel={delClick}></Product>
             ))}
             
             </tbody>

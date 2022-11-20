@@ -1,7 +1,8 @@
 import React from 'react'
 import Button from './Button'
 
-function Product({product,onClicks,onClick}) {
+function Product({product,onDel,onEdit}) {
+  
   return (
     
     
@@ -12,8 +13,9 @@ function Product({product,onClicks,onClick}) {
             <td>{product.stock}</td>
             <td>{product.brand}</td>
             <td>
-              <Button color="Green" text="edit" onClickss={onClick} ></Button>
-              <Button color="red" text="delete" onClickss={onClicks} ></Button>
+              <Button color="Green" text="edit" onClickss={onEdit} ></Button>
+              <Button color="red" text="delete" onClickss={onDel} ></Button>
+              
             </td>
           </tr>
       
