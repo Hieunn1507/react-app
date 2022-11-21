@@ -27,13 +27,12 @@ function App() {
       
   };
   const[btnPopup, setBtnPopup] = useState(false);
+
   return (
     <div className='App'>
        
       <Products  products={products} setProducts={setProduct} editClick={()=>setBtnPopup(true)} ></Products>
-      <DetailsPopup trigger={btnPopup} setTrigger={setBtnPopup}>
-        
-        </DetailsPopup>
+     
     </div>
   
   );

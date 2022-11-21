@@ -1,6 +1,7 @@
 import React from 'react'
 import Product from './Product'
 import 'bootstrap/dist/css/bootstrap.css';
+import DetailsPopup from './DetailsPopup';
 
 function Products({products,setProducts,editClick,delClick}) {
 
@@ -31,6 +32,7 @@ const EditPro= async(id) =>{};
                 <Product 
                 key={elements.id}
                 product= {elements}
+               
                 onEdit={editClick}
                 onDel={delClick}></Product>
             ))}
