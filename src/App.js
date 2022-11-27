@@ -6,16 +6,12 @@ import "./App.css";
 
 
 function App() {
-  
-
- 
      
   const [products,setProduct]=React.useState([]);
   useEffect(()=>{
     const getProducts= async() =>{
       const data = await fetchProducts();
       setProduct(data);
-      
     };
     getProducts();
   },[])
@@ -30,9 +26,7 @@ function App() {
 
   return (
     <div className='App'>
-       
-      <Products  products={products} setProducts={setProduct} editClick={()=>setBtnPopup(true)} ></Products>
-     
+      <Products  products={products} setProduct={setProduct} editClick={()=>setBtnPopup(true)} ></Products>   
     </div>
   
   );

@@ -1,169 +1,100 @@
 {
-    "products": [
-        {
-    "id": 1,
-    "title": "Hieu",
-    "name": "Hieu",
-    "description": "aaaaa",
-    "price": 30,
-    "discountPercentage": 2.92,
-    "rating": 4.92,
-    "stock": 54,
-    "brand": "Golden",
-    "category": "home-decoration",
-    "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-    "image": 
-      "https://dummyjson.com/image/i/products/30/1.jpg"
-      },
-      {
-        "id": 2,
-  "title": "Hieuxxx",
-  "name": "Hieuaa",
-  "description": "aaaaa",
-  "price": 30,
-  "discountPercentage": 2.92,
-  "rating": 4.92,
-  "stock": 54,
-  "brand": "Golden",
-  "category": "home-decoration",
-  "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-  "image": 
-    "https://dummyjson.com/image/i/products/30/1.jpg"
+  "products": [
+    {
+      "id": 1,
+      "title": "xcxz",
+      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+      "price": 30,
+      "discountPercentage": 2.92,
+      "rating": 4.92,
+      "stock": 54,
+      "brand": "Golden",
+      "category": "home-decoration",
+      "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
+      "image": "https://dummyjson.com/image/i/products/30/1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Key Holder",
+      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+      "price": 30,
+      "discountPercentage": 2.92,
+      "rating": 4.92,
+      "stock": 54,
+      "brand": "Golden",
+      "category": "home-decoration",
+      "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
+      "image": "https://dummyjson.com/image/i/products/30/1.jpg",
+      "": "2222"
     },
     {
       "id": 3,
-  "title": "Hieus",
-  "name": "Hieuc",
-  "description": "aaaaa",
-  "price": 30,
-  "discountPercentage": 2.92,
-  "rating": 4.92,
-  "stock": 54,
-  "brand": "Golden",
-  "category": "home-decoration",
-  "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-  "image": 
-  "https://dummyjson.com/image/i/products/30/1.jpg"
-  },
-  {
-    "id": 4,
-  "title": "Hieuxzczx",
-  "name": "Hieuaaa",
-  "description": "aaaaa",
-  "price": 30,
-  "discountPercentage": 2.92,
-  "rating": 4.92,
-  "stock": 54,
-  "brand": "Golden",
-  "category": "home-decoration",
-  "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-  "image": 
-  "https://dummyjson.com/image/i/products/30/1.jpg"
-  },
-  {
-    "id": 5,
-  "title": "Hieucccc",
-  "name": "Hieuxxx",
-  "description": "aaaaa",
-  "price": 30,
-  "discountPercentage": 2.92,
-  "rating": 4.92,
-  "stock": 54,
-  "brand": "Golden",
-  "category": "home-decoration",
-  "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-  "image": 
-  "https://dummyjson.com/image/i/products/30/1.jpg"
-  },
-  {
-    "id": 6,
-  "title": "Hieuxxx",
-  "name": "Hieuaa",
-  "description": "aaaaa",
-  "price": 30,
-  "discountPercentage": 2.92,
-  "rating": 4.92,
-  "stock": 54,
-  "brand": "Golden",
-  "category": "home-decoration",
-  "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-  "image": 
-  "https://dummyjson.com/image/i/products/30/1.jpg"
-  },
-  {
-    "id": 7,
-  "title": "Hieuzxc",
-  "name": "Hieuaâ",
-  "description": "aaaaa",
-  "price": 30,
-  "discountPercentage": 2.92,
-  "rating": 4.92,
-  "stock": 54,
-  "brand": "Golden",
-  "category": "home-decoration",
-  "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-  "image": 
-  "https://dummyjson.com/image/i/products/30/1.jpg"
-  },
-  {
-    "id": 8,
-  "title": "Hieuzxcxz",
-  "name": "Hieuzxcxzc",
-  "description": "aaaaa",
-  "price": 30,
-  "discountPercentage": 2.92,
-  "rating": 4.92,
-  "stock": 54,
-  "brand": "Golden",
-  "category": "home-decoration",
-  "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-  "image": 
-  "https://dummyjson.com/image/i/products/30/1.jpg"
-  },
-  {
-    "id": 1,
-  "title": "Hieu",
-  "name": "Hieu",
-  "description": "aaaaa",
-  "price": 30,
-  "discountPercentage": 2.92,
-  "rating": 4.92,
-  "stock": 54,
-  "brand": "Golden",
-  "category": "home-decoration",
-  "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-  "image": 
-  "https://dummyjson.com/image/i/products/30/1.jpg"
-  },
-  {
-    "id": 1,
-  "title": "Hieu",
-  "name": "Hieu",
-  "description": "aaaaa",
-  "price": 30,
-  "discountPercentage": 2.92,
-  "rating": 4.92,
-  "stock": 54,
-  "brand": "Golden",
-  "category": "home-decoration",
-  "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-  "image": 
-  "https://dummyjson.com/image/i/products/30/1.jpg"
-  },
-  {
-    "id": 1,
-  "title": "Hieu",
-  "name": "Hieu",
-  "description": "aaaaa",
-  "price": 30,
-  "discountPercentage": 2.92,
-  "rating": 4.92,
-  "stock": 54,
-  "brand": "Golden",
-  "category": "home-decoration",
-  "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
-  "image": 
-  "https://dummyjson.com/image/i/products/30/1.jpg"
-  }
- ]
+      "title": "Key Holder",
+      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+      "price": 30,
+      "discountPercentage": 2.92,
+      "rating": 4.92,
+      "stock": 54,
+      "brand": "Golden",
+      "category": "home-decoration",
+      "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
+      "image": "https://dummyjson.com/image/i/products/30/1.jpg",
+      "": "Key Holderzzz"
+    },
+    {
+      "id": 4,
+      "title": "Key Holder",
+      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+      "price": 30,
+      "discountPercentage": 2.92,
+      "rating": 4.92,
+      "stock": 54,
+      "brand": "Golden",
+      "category": "home-decoration",
+      "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
+      "image": "https://dummyjson.com/image/i/products/30/1.jpg",
+      "": "Key Holder ds"
+    },
+    {
+      "id": 5,
+      "title": "Key Holder",
+      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+      "price": 30,
+      "discountPercentage": 2.92,
+      "rating": 4.92,
+      "stock": 54,
+      "brand": "Golden",
+      "category": "home-decoration",
+      "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
+      "image": "https://dummyjson.com/image/i/products/30/1.jpg",
+      "": "zxczxc"
+    },
+    {
+      "id": 6,
+      "title": "Key Holder",
+      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+      "price": "anh hieu ngu",
+      "discountPercentage": 2.92,
+      "rating": 4.92,
+      "stock": 54,
+      "brand": "Golden",
+      "category": "home-decoration",
+      "thumbnail": "https://dummyjson.com/image/i/products/30/thumbnail.jpg",
+      "image": "https://dummyjson.com/image/i/products/30/1.jpg",
+      "": "30dsdsds"
+    },
+    {
+      "id": "111",
+      "title": "22",
+      "description": "333",
+      "price": "2222",
+      "discountPercentage": "111",
+      "rating": "1",
+      "stock": "22",
+      "brand": "33",
+      "category": "44",
+      "thumbnail": "ád",
+      "image": "zxcxzc"
+    }
+  ]
 }
