@@ -26,8 +26,23 @@ function App() {
 
   return (
     <div className='App'>
-      <Products  products={products} setProduct={setProduct} editClick={()=>setBtnPopup(true)} ></Products>   
+      <div className='header'>
+        <nav>
+          <ul>
+            <li>
+              <a href='/'>HOME</a>
+            </li>
+            <li>
+              <a href="/about">ABOUT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+      <Products  products={products} setProduct={setProduct} editClick={()=>setBtnPopup(true)} ></Products> 
+      </div> 
     </div>
+    
   
   );
 }

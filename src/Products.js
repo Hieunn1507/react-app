@@ -4,7 +4,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import DetailsPopup from './DetailsPopup';
 import Button from './Button';
 
-function Products({products,setProduct}) {
+
+function Products({products,setProduct,product}) {
+  const [search, setSearch] = useState('')
+  const [searchValue, setSearchVlaue] = useState("")
     const[btnPopup, setBtnPopup] = useState(false);
     const [detail,setDetail] = useState({
     id: "",
@@ -60,9 +63,33 @@ const handleSave = async (idSelect, detail, setTrigger) => {
     fetchData()
     
   };
+  const handleView = async (idSelect,detail,setTrigger) => {
+    await fetch(`http://localhost:5050/products/${idSelect}`,{
+      method:'GET',
+      body: JSON.stringify(detail),
+      headers: {
+          'Content-type': 'application/json; charset=UTF-8',
+      }
+    });
+    setTrigger(false)
+    const fetchData = async () => {
+     let json = await fetch('http://localhost:5050/products');
+      json = await json.json();
+      setProduct(json);
+    }
+    fetchData()
+    
+  };
 
+  
+  const handleSearch = () => {
+    setSearchVlaue(search);
+  }
+ 
   return (
     <div >   
+        <input onChange={(e)=>setSearch(e.target.value)}></input>
+        <Button onClickss={handleSearch} text='Search' color="blue"/>
         
         <table class="table">
             <thead>
@@ -76,18 +103,20 @@ const handleSave = async (idSelect, detail, setTrigger) => {
                 </tr>
             </thead>
             <tbody>
-            {products.map((elements) => (
+            { products.filter(productFilter => productFilter.title.substr(0,searchValue.length) == searchValue).map((elements) => (
                 <Product 
                 key={elements.id}
                 product= {elements}
                 handleSave={handleSave}
-                onDel={delPro}></Product>
+                onDel={delPro}
+                handleView={handleView}></Product>
             ))}
             
             </tbody>
         </table>
         <Button onClickss={()=> setBtnPopup(true)} color="blue" text="ADD" title="ADD"/>
-        <DetailsPopup props={detail} trigger={btnPopup} handleSave={handleAdd} setTrigger={setBtnPopup} />
+        <DetailsPopup props={detail} trigger={btnPopup}   handleSave={handleAdd} setTrigger={setBtnPopup} />
+       
     </div>
   )
 }

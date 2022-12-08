@@ -8,7 +8,7 @@ class Button extends React.Component {
  render (){
   return(
     
-      <button  type="button" class="btn btn-success"  style={{backgroundColor : this.props.color}} onClick={this.props.onClickss}>{this.props.text}</button>
+      <button   type="button" class="btn btn-success"  style={{backgroundColor : this.props.color}} onClick={this.props.onClickss}>{this.props.text}</button>
      
     
   );
@@ -18,9 +18,9 @@ class Button extends React.Component {
 
 
 Button.defaultProps = {
-  color:"green",
+ 
   text:'',
-  colors:"red",
+
   onClicks:'',
   btnTxt: '',
   deletebtn:'delete',

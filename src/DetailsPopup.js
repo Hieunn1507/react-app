@@ -5,7 +5,7 @@ import Button from './Button'
 
 
 
-function DetailsPopup({props,trigger,setTrigger,handleSave,idSelect}) {
+function DetailsPopup({props,trigger,setTrigger,handleSave,idSelect,handleView}) {
   const [detail,setDetail] = useState({
     id: props.id,
     title:props.title,
